@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,21 +16,23 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
-    padding: 30px 20px;
+    padding: 25px 18px;
 }
 
+/* Profile */
 .photo {
-    width: 140px;
-    height: 140px;
-    margin: 30px auto 20px;
+    width: 145px;
+    height: 145px;
+    margin: 25px auto 20px;
     border-radius: 50%;
     background: linear-gradient(135deg, #f6c5df, #d8c7f5);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 55px;
+    font-size: 58px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 }
 
 h1 {
@@ -42,12 +45,13 @@ h1 {
     font-size: 18px;
 }
 
+/* Cards */
 .card {
-    background: white;
+    background: rgba(255,255,255,0.92);
     margin: 25px 0;
-    padding: 25px;
-    border-radius: 22px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    padding: 28px 22px;
+    border-radius: 24px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
 }
 
 h2 {
@@ -58,20 +62,55 @@ p {
     line-height: 1.7;
 }
 
+/* Services */
+.service {
+    background: #faf7ff;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Button */
 .button {
     display: inline-block;
     margin-top: 15px;
-    padding: 14px 25px;
+    padding: 14px 27px;
     border-radius: 30px;
     background: #222;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
 footer {
     margin-top: 35px;
+    padding-bottom: 20px;
     color: #888;
+    font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .photo {
+        width: 125px;
+        height: 125px;
+        font-size: 50px;
+    }
 }
 </style>
 </head>
@@ -88,15 +127,17 @@ footer {
 Welcome to my little corner of the internet ♡
 </p>
 
+
 <div class="card">
 <h2>About Me 🌸</h2>
 
 <p>
 Hi! I'm Rashi. Welcome to my website!
 This is my little space where I can share
-my interests, ideas and things I love.
+my interests, creativity, ideas and work.
 </p>
 </div>
+
 
 <div class="card">
 <h2>My Interests ✨</h2>
@@ -106,20 +147,34 @@ Fashion • Creativity • Fitness • Travel • Learning
 </p>
 </div>
 
+
 <div class="card">
-<h2>Let's Connect 💌</h2>
+<h2>What I Can Do 💼</h2>
+
+<div class="service">✨ Creative Work</div>
+<div class="service">💻 Digital Work</div>
+<div class="service">🎨 Content & Ideas</div>
+<div class="service">🌸 Personal Projects</div>
+
+</div>
+
+
+<div class="card">
+<h2>Work With Me 💌</h2>
 
 <p>
-Want to get in touch with me?
+Interested in working with me or have a question?
+Feel free to contact me directly.
 </p>
 
 <a class="button"
-href="https://wa.me/919238883682"
+href="https://wa.me/91YOURNUMBER"
 target="_blank">
 WhatsApp Me 💬
 </a>
 
 </div>
+
 
 <footer>
 Made with ♡ by Rashi
@@ -129,3 +184,4 @@ Made with ♡ by Rashi
 
 </body>
 </html>
+```
