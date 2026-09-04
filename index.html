@@ -1,154 +1,131 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Rashi's Website</title>
+<title>Rashi's Website</title>
 
-    <style>
-        body {
-            background-color: #ffe6f2;
-            font-family: Arial;
-            text-align: center;
-            padding: 40px;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .box {
-            background-color: white;
-            padding: 30px;
-            border-radius: 20px;
-            max-width: 750px;
-            margin: auto;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffeef7, #f3edff);
+    color: #333;
+    text-align: center;
+}
 
-        h1 {
-            color: #8e44ad;
-            font-size: 40px;
-        }
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 20px;
+}
 
-        h2 {
-            color: #8e44ad;
-            margin-top: 30px;
-        }
+.photo {
+    width: 140px;
+    height: 140px;
+    margin: 30px auto 20px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f6c5df, #d8c7f5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+}
 
-        p {
-            font-size: 18px;
-        }
+h1 {
+    font-size: 42px;
+    margin: 10px;
+}
 
-        .services,
-        .pricing {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+.subtitle {
+    color: #777;
+    font-size: 18px;
+}
 
-        .service,
-        .price-card {
-            background-color: #f8e8ff;
-            padding: 20px;
-            border-radius: 18px;
-            width: 180px;
-        }
+.card {
+    background: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
 
-        .service h3,
-        .price-card h3 {
-            color: #8e44ad;
-        }
+h2 {
+    margin-bottom: 12px;
+}
 
-        .price-card h2 {
-            color: #333;
-        }
+p {
+    line-height: 1.7;
+}
 
-        button {
-            background-color: #8e44ad;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 25px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        a {
-            text-decoration: none;
-        }
-    </style>
+footer {
+    margin-top: 35px;
+    color: #888;
+}
+</style>
 </head>
 
 <body>
 
-    <div class="box">
+<div class="container">
 
-        <h1>Hi, I'm Rashi 👋</h1>
+<div class="photo">🌷</div>
 
-        <p>Welcome to my website!</p>
+<h1>Hi, I'm Rashi ✨</h1>
 
-        <h2>About Me</h2>
-        <p>I am learning coding and creating websites.</p>
+<p class="subtitle">
+Welcome to my little corner of the internet ♡
+</p>
 
-        <h2>My Services 💼</h2>
+<div class="card">
+<h2>About Me 🌸</h2>
 
-        <div class="services">
+<p>
+Hi! I'm Rashi. Welcome to my website!
+This is my little space where I can share
+my interests, ideas and things I love.
+</p>
+</div>
 
-            <div class="service">
-                <h3>Website Design</h3>
-                <p>Modern websites.</p>
-            </div>
+<div class="card">
+<h2>My Interests ✨</h2>
 
-            <div class="service">
-                <h3>Business Website</h3>
-                <p>Professional websites.</p>
-            </div>
+<p>
+Fashion • Creativity • Fitness • Travel • Learning
+</p>
+</div>
 
-            <div class="service">
-                <h3>WhatsApp Contact</h3>
-                <p>Easy customer contact.</p>
-            </div>
+<div class="card">
+<h2>Let's Connect 💌</h2>
 
-        </div>
+<p>
+Want to get in touch with me?
+</p>
 
-        <h2>My Pricing 💰</h2>
+<a class="button"
+href="https://wa.me/919238883682"
+target="_blank">
+WhatsApp Me 💬
+</a>
 
-        <div class="pricing">
+</div>
 
-            <div class="price-card">
-                <h3>Basic</h3>
-                <h2>₹2,999</h2>
-                <p>Simple website</p>
-                <p>Mobile friendly</p>
-            </div>
+<footer>
+Made with ♡ by Rashi
+</footer>
 
-            <div class="price-card">
-                <h3>Business</h3>
-                <h2>₹4,999</h2>
-                <p>Professional website</p>
-                <p>WhatsApp button</p>
-
-                <a href="https://wa.me/919238883682" target="_blank">
-                    <button>Choose Business</button>
-                </a>
-            </div>
-
-            <div class="price-card">
-                <h3>Premium</h3>
-                <h2>₹7,999</h2>
-                <p>Complete website</p>
-                <p>Custom design</p>
-            </div>
-
-        </div>
-
-        <h2>My Hobbies ⚽</h2>
-        <p>Football • Gym • Exploring</p>
-
-        <br>
-
-        <a href="https://wa.me/919238883682" target="_blank">
-            <button>Contact Me on WhatsApp 💬</button>
-        </a>
-
-    </div>
+</div>
 
 </body>
 </html>
